@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cronômetro Pomodoro</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cronômetro Pomodoro</h1>
+      <div id="timer">
+        <span id="minutes">25</span>:<span id="seconds">00</span>
+      </div>
+      <div id="controls">
+        <button id="startButton" onclick="startTimer()">Iniciar</button>
+        <button id="pauseButton" onclick="pauseTimer()" disabled>Pausar</button>
+        <button id="resetButton" onclick="resetTimer()" disabled>
+          Reiniciar
+        </button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

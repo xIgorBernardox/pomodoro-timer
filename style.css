@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  background-color: #222;
+  color: #fff;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #fff;
+}
+
+#timer {
+  font-size: 48px;
+  margin: 30px 0;
+}
+
+#controls button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#controls button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  color: #fff;
+}
